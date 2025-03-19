@@ -1,19 +1,13 @@
 
 import './App.css'
-
+import MovieCard from "./components/MovieCard"
+import Home from "./pages/Home"
 function App() {
   return (
-<>
-<Text display="hello,"/>
-<Text display="there"/>
-
-</>
+    <>
+    <Home/>
+    </>
   )
-}
-function Text({display}){
-  return (
-    <div>{display}</div>
-  );
 }
 
 export default App
