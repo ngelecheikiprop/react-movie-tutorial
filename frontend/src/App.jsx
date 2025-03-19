@@ -4,15 +4,15 @@ import './App.css'
 function App() {
   return (
 <>
-<Text/>
-<Text/>
+<Text display="hello,"/>
+<Text display="there"/>
 
-</>cd
+</>
   )
 }
-function Text({text}){
+function Text({display}){
   return (
-    <div>Hello World</div>
+    <div>{display}</div>
   );
 }
 
